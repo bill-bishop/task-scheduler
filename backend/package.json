@@ -2,10 +2,23 @@
   "name": "backend",
   "version": "0.0.1",
   "scripts": {
-    "start": "nest run start",    "start:dev": "nest run start: dev",
+    "start": "nest run start",
+    "start:dev": "nest run start: dev",
     "build": "nest build",
     "test": "nest test"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@nestjs/cli": "^11.0.10",
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.6",
+    "better-sqlite3": "^12.2.0",
+    "class-resolver": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^11.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
 }
