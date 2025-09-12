@@ -10,15 +10,8 @@ This is a full-stack task scheduling application built with:
 
 ## 🔟 Up - Setup
 
-Note: This is a test edit added by ChatGPT.
 
-This is a full-stack task scheduling application built with:
- * Angular 20 (Frontend)
- * NestJS (Backend)
- * SQLite (Database)
-*** 
-
-2## Backend (NestJS + SQLite)
+### Backend (NestJS + SQLite)
 
 ### 1. Setup
 ```bash
