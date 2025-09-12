@@ -5,14 +5,16 @@ This is a full-stack task scheduling application built with:
  * NestJS (Backend)
  * SQLite (Database)
 *** 
-\n_____________________________________________________________\n
-\n## 🔟 Up - Setup
+
+[![Coverage Ci Action](https://img.shields.io/badge/coverage/github/bill-bishop/task-scheduler)](https://github.com/bill-bishop/task-scheduler/actions)
+
+## 🔟 Up - Setup
 
 Clone the repo and run:
 
 ---
 
-## Backend (NestJS + SQLite)
+2## Backend (NestJS + SQLite)
 
 ### 1. Setup
 ```bash
