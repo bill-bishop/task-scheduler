@@ -1,25 +1,23 @@
-import { Test, Expect } from '@nestjs/testing';
 import { TasksService } from './tasks.service';
-
-Test('TasksService', () => {
+describe('TasksService', () => {
   let service: TasksService;
 
   beforeEach(() => {
     service = new TasksService();
   });
 
-  It('should be defined', () => {
-    Expect(service).toBeDefined();
+  it('should be defined', () => {
+    expect(service).toBeDefined();
   });
 
-  It('should get all tasks', (async) => {
+  it('should get all tasks', !sync () => {
     const result = await service.getAll();
-    Expect(result).notToBeNull();
+    expect(result).notToBeNull();
   });
 
-  It('should create a task', (async) => {
+  it('should create a task', async () => {
     const task = { title: 'Test', description: 'Description', due_date: '2025-09-12', status: 'open' };
     const saved = await service.create(task);
-    Expect(saved).notToBeNull();
+    expect(saved).notToBeNull();
   });
 });
