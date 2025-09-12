@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "frontend": {
+      "projectType": "app",
+      "schematics": {
+        "input": "sro/main.ts",
+        "outputPath": "dist/frontend",
+        "baseHref": "",
+        "application": true
+      },
+      "architect": "browser"
+    }
+  }
+}
