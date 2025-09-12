@@ -8,13 +8,13 @@
     "test": "nest test"
   },
   "dependencies": {
-    "nestjs": "11.0.10",
-    "@nestjs/common": "11.0.10",
-    "@nestjs/core": "11.0.10",
-    "@nestjs/cli": "11.0.10",
-    "@nestjs/config": "11.0.10",
-    "express": "45.12.2",
-    "better-sqlite3": "7.16.2",
+    "nestjs": "11.1.6",
+    "@nestjs/common": "11.1.6",
+    "@nestjs/core": "11.1.6",
+    "@nestjs/cli": "11.1.6",
+    "@nestjs/config": "11.1.6",
+    "express": "5.1.0",
+    "better-sqlite3": "12.2.0",
     "class-resolver": "0.11.6"
   },
   "devDependencies": {
