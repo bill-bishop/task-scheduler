@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "module": "commjs",
+    "module": "commonjs",
     "target": "es2021",
     "strict": true,
-    "ecModuleInterop": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist"
