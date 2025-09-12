@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commjs",
+    "target": "es2021",
+    "strict": true,
+    "ecModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
