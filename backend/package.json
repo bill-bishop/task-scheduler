@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "0.0.1",
   "scripts": {
-    "start": "nest run start",
-    "start:dev": "nest run start: dev",
-    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start",
+    "build": "tsc -p tsconfig.json",
     "test": "nest test"
   },
   "dependencies": {
