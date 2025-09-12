@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "nestjs": "12.10.0",
-    "@nestjs/common": "12.10.0",
+    "@nestjs/common": "11.0.10",
     "@nestjs/core": "12.10.0",
     "@nestjs/cli": "11.0.10",
     "@nestjs/config": "12.10.0",
