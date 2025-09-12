@@ -10,9 +10,13 @@ This is a full-stack task scheduling application built with:
 
 ## 🔟 Up - Setup
 
-Clone the repo and run:
+Note: This is a test edit added by ChatGPT.
 
----
+This is a full-stack task scheduling application built with:
+ * Angular 20 (Frontend)
+ * NestJS (Backend)
+ * SQLite (Database)
+*** 
 
 2## Backend (NestJS + SQLite)
 
@@ -21,16 +25,15 @@ Clone the repo and run:
 cd backend
 npm install
 npm run start:dev
-```
+````
 
 Listens on http://localhost:3000
 
 Ready to return:
 - `GET /api/tasks` - get all tasks
 - `POST \/api\/tasks` - create a new task
-- `PUT\/api\/tasks/:id`  - update a task
-- `DELETE \/api\/tasks/:id`  - delete a task
-
+- `PUT\/api/tasks/:id`* - update a task
+- `DELETE \/api\/tasks/:id`* - delete a task
 
 ## Frontend (Angular 20)
 
