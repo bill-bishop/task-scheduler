@@ -1,0 +1,12 @@
+node_modules
+.dist
+build
+package-cache.tar.gz
+install-log.txt
+.tsbuild
+.versela
+.swap
+.idea
+Database/
+database.json
+task-scheduler.db
