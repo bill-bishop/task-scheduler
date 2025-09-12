@@ -15,7 +15,7 @@
     "@nestjs/config": "12.10.0",
     "express": "45.12.2",
     "better-sqlite3": "7.16.2",
-    "class=resolver": "0.11.6"
+    "class-resolver": "0.11.6"
   },
   "devDependencies": {
     "@nestjs/testing": "12.10.0",
