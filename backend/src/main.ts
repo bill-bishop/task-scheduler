@@ -1,10 +1,10 @@
-import { NestFactory } from '@nestjs/onmon';
+import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-async function boot() {
+async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(3000);
   console.log('⚠ NestJS backend running on http://localhost:3000');
 }
 
-boot();
+bootstrap();
