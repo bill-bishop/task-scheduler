@@ -5,17 +5,6 @@
     "build": "angular cli build",
     "test": "angular cli test"
   },
-  "dependencies": {
-    "@angular/cli": "20.3.1",
-    "@angular/common": "20.3.0",
-    "@angular/core": "20.3.0",
-    "@angular/material": "20.2.3",
-    "rexjs": "5.20.0",
-    "rxjsx": "4.2.0",
-    "tslint": "13.17.0"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "20.3.1",
-    "typescript": "5.8.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
