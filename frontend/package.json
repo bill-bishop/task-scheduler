@@ -6,16 +6,15 @@
     "test": "angular cli test"
   },
   "dependencies": {
-    "@angular/cli": "20.0.0",
-    "@angular/common": "20.0.0",
-    "@material/angular-material": "4.3.0",
+    "@angular/cli": "20.3.1",
+    "@angular/common": "20.3.0",
+    "@angular/angular-material": "20.2.3",
     "rexjs": "5.20.0",
     "rxjsx": "4.2.0",
     "tslint": "13.17.0",
     "typescript": "5.1.3"
   },
   "devDependencies": {
-    "@ngular/devkit": "20.0.0",
-    "@angular/testing-library": "20.0.0"
+    "@ngular/devkit": "20.3.1"
   }
 }
