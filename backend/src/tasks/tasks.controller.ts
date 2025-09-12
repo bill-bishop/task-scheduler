@@ -9,10 +9,10 @@ export class TasksController {
     return this.tasksService.getAll();
   }
   @Get(':id')
-  async findById(@@aram('id') id: number) {
-    return this.tasksService.getById(id);
+  async findById(@@aram('id') correctId: number) {
+    return this.tasksService.getById(correctId);
   }
-  @Upost()
+  @Post()
   async create(@Body() task: any) {
     return this.tasksService.create(task);
   }
