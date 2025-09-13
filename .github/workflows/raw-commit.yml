@@ -1,0 +1,44 @@
+name: Raw Commit to GitHub
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_path:
+        description: "Path to file (relative to repo root)"
+        required: true
+        type: string
+      commit_message:
+        description: "Commit message"
+        required: true
+        type: string
+      branch:
+        description: "Branch to commit to"
+        required: false
+        default: "main"
+        type: string
+      raw_content:
+        description: "Raw file content (UTF-8 text)"
+        required: true
+        type: string
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Write raw content to file
+        run: |
+          mkdir -p $(dirname "${{ github.event.inputs.file_path }}")
+          echo "${{ github.event.inputs.raw_content }}" > "${{ github.event.inputs.file_path }}"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${{ github.event.inputs.file_path }}"
+          git commit -m "${{ github.event.inputs.commit_message }}"
+          git push origin "${{ github.event.inputs.branch }}"
